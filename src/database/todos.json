@@ -1,0 +1,37 @@
+[
+    {
+        "todo_id": 1,
+        "todo_text": "qaleysan",
+        "date": "14:51",
+        "username": "abdulaziz",
+        "user_id": 15
+    },
+    {
+        "todo_id": 2,
+        "todo_text": "yahsi rahmat ozin yahshimisan",
+        "date": "14:52",
+        "username": "hacker_pro",
+        "user_id": 2
+    },
+    {
+        "todo_id": 3,
+        "todo_text": "ha rahmat solula yahshimi ?",
+        "date": "14:52",
+        "username": "abdulaziz",
+        "user_id": 15
+    },
+    {
+        "todo_id": 5,
+        "todo_text": ":D",
+        "date": "15:50",
+        "username": "hacker_pro",
+        "user_id": 2
+    },
+    {
+        "todo_id": 6,
+        "todo_text": "oooooooo:d",
+        "date": "16:42",
+        "username": "abdurahmon",
+        "user_id": 27
+    }
+]
