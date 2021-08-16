@@ -33,5 +33,12 @@
         "date": "16:42",
         "username": "abdurahmon",
         "user_id": 27
+    },
+    {
+        "todo_id": 7,
+        "todo_text": "sdsd",
+        "date": "12:4",
+        "username": "abdulazi",
+        "user_id": 35
     }
 ]
