@@ -16,7 +16,7 @@ const server = http.createServer( (req, res) => {
 	if(req.method.toUpperCase() == 'OPTIONS') return res.end()
 
 	const app = new Express(req, res)
-	app.get('/todos', (req, res) => {
+	app.get('/', (req, res) => {
 		res.end("ishlashi boshladim")
 	})
 	app.post('/login', LOGIN)
