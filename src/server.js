@@ -2,13 +2,12 @@ import http from 'http'
 import path from 'path'
 import fs from 'fs'
 import Express from './lib/express.js'
-import { PORT, host } from './config.js'
 import { REGISTER, LOGIN } from './modules/authController.js'
 import { GET } from './modules/getController.js'
 import { POST } from './modules/postController.js'
 import { DELETE } from './modules/deleteController.js'
 import { PUT } from './modules/putController.js'
-
+const PORT = process.env.PORT || 4000;
 const server = http.createServer( (req, res) => {
 	res.setHeader('Access-Control-Allow-Origin','*')
 	res.setHeader("Access-Control-Allow-Credentials", "true")
@@ -28,6 +27,6 @@ const server = http.createServer( (req, res) => {
 	app.put('/todos', PUT)
 })
 
-server.listen(PORT, () => console.log('http://' + host + ':' + PORT))
+server.listen(PORT, () => console.log("ishlavotti"))
 
 
